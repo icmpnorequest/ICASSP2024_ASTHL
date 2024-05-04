@@ -1,6 +1,6 @@
 # ICASSP2024_ASTHL
 
-The official PyTorch implementation for [Adaptive Spatial-Temporal Hypergraph Fusion Learning for Next POI Recommendation](https://ieeexplore.ieee.org/abstract/document/10447357/), which is accepted to ICASSP'2024.
+The official PyTorch implementation for [Adaptive Spatial-Temporal Hypergraph Fusion Learning for Next POI Recommendation](https://ieeexplore.ieee.org/abstract/document/10447357/), which is accepted to ICASSP'2024 as full paper for oral presentation.
 
 If you have any questions, please feel free to issue or contact me by email. If you use our codes and datasets in your research, please cite:
 ```
@@ -27,4 +27,11 @@ Next point-of-interest (POI) recommendation has been a trending task to provide 
 torch==1.12.0
 ```
 
+
+## Running
+```
+nohup python3 -u run.py --dataset NYC >> NYC.out
+nohup python3 -u run.py --dataset TKY >> TKY.out
+nohup python3 -u run.py --dataset Gowalla >> Gowalla.out
+```
 
